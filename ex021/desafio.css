@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Android";
+    src: url("fontes/idroid.otf") format("opentype"), url("fontes/idroid.ttf")
+    format("truetype");
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("bebas_neue\ \(1\)/BebasNeue-Regular.otf") format("opentype"), url("bebas_neue") format("truetype");
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+:root {
+    --cor1: #e5ebd6;
+    --cor2: #83e1ad;
+    --cor3: #3ddc84;
+    --cor4: #2fa866;
+    --cor5: #1a5c37;
+    --cor6: #063d1e;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+    --font-android: "Android", cursive;
+}
+body {
+    font-family: var(--font-padrao);
+    background-color: var(--cor1);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor4), var(--cor6));
+    min-height: 150px;
+    padding-top: 40px;
+    
+}
+header > p {
+    font-family: var(--font-padrao);
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin: auto;
+}
+header > h1 {
+    font-family: var(--font-destaque);
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px black;
+}
+nav {
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 153);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--cor2);
+    font-weight: bold;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    border-radius: 5px;
+    transition-duration: .5s;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 20px 20px;
+    min-width: 200px;
+    max-width: 1000px;
+    box-shadow: 5px 2px 5px grey;
+}
+.transparent {
+    font-weight: bold;
+    color: var(--cor5);
+}
+.conteudo a {
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: bold;
+}
+.conteudo a:hover {
+    background-color: var(--cor3);
+    padding: 2px 5px;
+}
+.conteudo a::after {
+    content: "\1F517";
+}
+.conteudo h1 {
+    font-family: var(--font-android);
+    color: var(--cor5);
+    text-align: center;
+}
+.conteudo h2 {
+    background-image: linear-gradient(to right, rgba(12, 235, 98, 0.425), transparent);
+    font-family: var(--font-android);
+    color: var(--cor3);
+    border-radius: 20px;
+    padding: 0px 10px;
+}
+p {
+    text-indent: 2em;
+    text-align: justify;
+    padding: 20px;
+    line-height: 2em;
+}
+main p span {
+    color: var(--cor5);
+    font-weight: bold;
+}
+
+#sub-main {
+    margin: 20px;
+    background-color: var(--cor3);
+    border-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+}
+#sub-main h3 {
+    background-color: var(--cor5);
+    font-weight: bold;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+#sub-main p {
+    text-align: justify;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+#sub-main li {
+    display: list-item;
+    list-style-position: inside;
+    list-style-type: "✔  ";
+    text-indent: 2em;
+}
+#sub-main span {
+    color: var(--cor6);
+    font-weight: bold;
+}
+#sub-main a {
+    font-weight: bold;
+    color: var(--cor6);
+    text-decoration: none;
+}
+#sub-main a:hover {
+    background-color: var(--cor4);
+    padding: 2px 5px;
+}
+#sub-main a::after {
+    content: "\1F517";
+}
+footer {
+    background-color: var(--cor6);
+    color: var(--cor1);
+}
+footer p {
+    text-align: center;
+    padding: 0px;
+}
+footer a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer a:hover {
+    background-color: var(--cor3);
+    padding: 2px 5px;
+}
+footer a::after {
+    content: "🖇 ";
+}
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+img#pequena {
+    max-width: 350px;
+    width: 50%;
+}
+div.video {
+    background-color: var(--cor5);
+    padding: 20px;
+    margin: 0px -10px 30px -10px;
+    position: relative;
+    padding-bottom: 50%;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
