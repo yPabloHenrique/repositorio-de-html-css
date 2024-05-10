@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação na prática!</title>
+</head>
+<body>
+    <h1>Módulo 01</h1>
+    <h2>Capítulo 05</h2>
+    <h3>Parágrafos e linhas quebradas</h3>
+    <p>Exemplos:</p>
+    &lt;p&gt;Lorem ipsum&lt;/p&gt;<br>
+    &lt;p&gt;Lorem &lt;br&gt;<br>ipsum&lt;/p&gt;
+    <h3>Adicionar emojis e Adicionar símbolos</h3>
+    Para adicionar um emoji, siga o exemplo: <br>
+    &#x&lt;código hexadecimal&gt;;<br>
+    &#x1F525;
+    &real;
+    &euro;
+    &copy;
+    <h3>Comentários</h3>
+    &lt;!--Lorem ipsum--&gt;
+    <h2>Capítulo 06</h2>
+    <h3>Formatos de imagens</h3>
+    JPEG - Imagem leve
+    PNG - Imagens sem fundo
+    JPG - Não há diferença com o JPEG.
+    <h3>Tag img: Formas de uso</h3>
+    <p>Siga os exemplos:</p>
+    &lt;img&gt;
+    Adiciona-se src para colocar a imagem, tese: precisa estar na pasta do projeto.<br>
+    <p>&lt;img src="html-logo.png"&gt;</p>
+    Obs: Algumas tags não possui tag de fechamento, ou seja, não tem necessidade, eu digo que não existe.
+    <p>Outra coisa que podemos usar dentro da tag img é colocando o nome da pasta onde está inserido o arquivo, siga o exemplo:</p>
+    &lt;img src="img/html-logo.png"&gt;
+    <p>Podemos usar também, endereços de links pela internet, não recomendo viu? Pois se cair o site, comrrompe o teu site.</p>
+    &lt;img src="https://discord.gg/mugiwaras"&gt;<br>
+    Resultado:
+    <img src="Ace_indo_a_pirataria.webp" alt="Ace">
+    <h3>Favicon</h3>
+    Serve para colocar um ícone para página do título:
+    Só adicionar link : favicon que aparece (Não coloquei junto para não acionar o gatilho rs)
+    <h2>Capítulo 07</h2>
+    <h3>Hierarquia de títulos</h3>
+    Podemos adicionar até o &lt;h6&gt;, &lt;h7&gt; por diante, não existe.<br>
+    <h1>Título 01</h1>
+    <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam cumque molestiae reprehenderit veniam quis necessitatibus accusamus aperiam sapiente sed rem officia, expedita architecto, perferendis obcaecati. Quisquam ea cumque expedita praesentium.</h1>
+    <h2>Título 02</h2>
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At asperiores aliquid ullam, eligendi aspernatur nisi incidunt sapiente dolorum praesentium vitae explicabo fugiat repellendus fuga officia natus nobis provident facilis reprehenderit.</h2>
+    <h3>Título 03</h3>
+    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veritatis maxime minus, nostrum velit itaque! Alias dolorum omnis incidunt nulla vitae aliquam non commodi similique. Pariatur quo delectus porro dolorem.</h3>
+    <h4>Título 04</h4>
+    <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero possimus architecto nesciunt consectetur unde optio, accusamus corrupti atque, obcaecati maiores blanditiis, exercitationem dolorem. Repellendus fugiat maxime ea, nemo porro temporibus.</h4>
+    <h5>Título 05</h5>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam assumenda nisi doloremque, totam rerum necessitatibus. Veniam blanditiis qui animi mollitia labore cumque excepturi repudiandae officiis tempora quae! Totam, odit. Soluta.</h5>
+    <h6>Título 06</h6>
+    <h6>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sunt nihil esse corporis possimus quidem quasi doloremque dignissimos neque enim, aliquid fuga vero repellat quaerat exercitationem voluptate soluta suscipit ex?</h6>
+    <h2>Capítulo 08</h2>
+    <h3>Formatações</h3>
+    <p>Formatações semânticas são muito utilizadas no documento html, confira algumas tags:</p>
+    <ul>
+        <li><strong>strong</strong> - Destaque</li>
+        <li><em>em</em> - Ênfase</li>
+        <li><del>del</del> - Deletar mensagem</li>
+        <li><q>q</q> - Citar algo</li>
+        <li><blockquote>blockquote</blockquote> - Citar algo</li>
+        <li>sub - subescrito</li>
+        <li><sup>sup</sup> - sobescrito</li>
+        <li><abbr title="Lorem ipsum">abbr</abbr> - extensões de abreviações</li>
+    </ul>
+    <h2>Capítulo 09</h2>
+    <h3>Links</h3>
+    Usando a tag <strong>a</strong>, criamos links. Usamos o atributo <strong>target</strong> e temos algumas funções como: _blank e _self exemplo:
+    Vá para <a href="pag2.html">página 2</a>, depois volte e vá para <a href="../prática/blog/blog.html">página de blog</a>.
+    <h2>Capítulo 11</h2>
+    <h3>Mídias</h3>
+    <p>Vamos começando a adicionar um simples <abbr title="tag &lt;picture&gt;">picture</abbr> aqui com <abbr title="tag &lt;source&gt;">source</abbr>:</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/mjpg.jpg" type="image/jpg">
+        <img src="imagens/g.jpg" alt="Foto grande">
+    </picture>
+    <p>Agora vamos colocar aúdio usando <abbr title="tag &lt;source&gt;">source</abbr></p>
+    <audio controls preload="metadata">
+        <source src="audios/July - John Patitucci.mp3" type="audio/mpeg">
+        <source src="audios/July - John Patitucci.ogg" type="audio/ogg">
+        <source src="audios/July - John Patitucci.wav" type="audio/wav">
+        <p>Infelizmente, seu navegador não é compatível com a mídia, por favor, faça o download <a href="audios/July - John Patitucci.mp3">aqui</a></p>
+    </audio>
+    <p>Agora são com vídeos usando <abbr title="tag &lt;source&gt;">source</abbr></p>
+    <video controls loop autoplay preload="metadata">
+        <source src="vídeo/Video.mp4" type="video/mp4">
+        <source src="vídeo/Video.webm" type="video/webm">
+        <p>Infelizmente, seu navegador não é compatível com a mídia, por favor, faça o download do arquivo <a href="vídeo/pexels-ahmed-ツ-20089496 (Original).mp4" type="video/mp4" download="video/mp4">aqui</a>.</p>
+    </video>
+    <p>Agora vamos colocar um simples vídeo hospedado pelo próprio youtube, e não pelo próprio site, já que esses arquivos consume os dados do site.</p>
+    <p>Vou pegar um vídeo hospedado do curso em vídeo, já que é o curso que estou estudando.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BXqUH86F-kA?si=cuezK4oTrgD3NA-6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h2>Capítulo 12</h2>
+    <h3>Estilos CSS</h3>
+    <h4>Estilos CSS inline</h4>
+    <p style="color: blue;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A, voluptatum! Odit voluptas quos quidem nostrum veniam cupiditate placeat incidunt minus ad, debitis, ex dicta dolorem eligendi delectus vero eum sapiente.</p>
+    <h4>Estilos CSS internos</h4>
+    <p>Colocamos no <abbr title="tag &lt;style&gt;">head</abbr> do arquivo.</p>
+    <h4>Estilos CSS externos</h4>
+    <p>São arquivos separados do documento html geralmente com o nome style.css</p>
+    </body>
+    </html>

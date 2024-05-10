@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/ex005/favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir um site em vários dispositivos diferentes ou simplesmente aumente ou diminue o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.jpg" type="image/jpg">
+        <source media="(max-width: 1000px)" srcset="imagens/mjpg.jpg" type="image/jpg">
+        <img src="imagens/g.jpg" alt="foto grande">
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <source src="audios/July - John Patitucci.mp3" type="audio/mpeg">
+        <source src="audios/July - John Patitucci.ogg" type="audio/ogg">
+        <source src="audios/July - John Patitucci.wav" type="audio/wav">
+        <p>Infelizmente, o seu navegador não possui suporte para ter acesso ao conteúdo. Por favor <a href="audios/July - John Patitucci.mp3" type="audio/mp3">baixe o conteúdo aqui</a>.</p>
+    </audio>
+</body>
+</html>
