@@ -136,6 +136,9 @@ main p span {
     padding: 20px;
     border-radius: 0px 0px 10px 10px;
 }
+#sub-main ul {
+    columns: 2;
+}
 #sub-main li {
     display: list-item;
     list-style-position: inside;
