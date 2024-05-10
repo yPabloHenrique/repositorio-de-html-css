@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: linear-gradient(to bottom, rgb(119, 119, 119), rgb(0, 0, 0));
+            font-family: Arial, Helvetica, sans-serif;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: gray;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        nav {
+            background-color: rgb(80, 80, 80);
+            box-shadow: 2px 2px 8px #424242;
+        }
+        nav > a {
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            margin-right: 40px;
+            margin-left: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            border-radius: 20px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        article {
+            background-color: rgb(202, 202, 202);
+            margin-bottom: 5px;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: gray;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            padding: 6px;
+            margin-top: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+    <title>Grouping Tags</title>
+</head>
+<body>
+    <header>
+        <h1>Mugiwaras</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Sobre Notícias Novidades</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia Lorem ipsum</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis quas dicta, deserunt incidunt nam explicabo repellendus quae doloremque! Ipsam tempora fugiat odit, nihil quaerat fuga eum laborum est consectetur architecto!</p>
+                <aside>
+                    <p>Artigo escrito por Fulano da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por SmokeDev</p>
+    </footer>
+</body>
+</html>
