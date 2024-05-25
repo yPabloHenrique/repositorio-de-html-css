@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            font-weight: bold;
+        }
+        th, .total {
+            background-color: grey;
+            color: white;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+        .num {
+            text-align: center;
+        }
+    </style>
+    <title>Desafio 014 - Tabelas</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <th rowspan="2">Área</td>
+            <th rowspan="2">Disciplinas</td>
+            <th colspan="2" scope="colgroup">Notas</td>
+            <th rowspan="2">Média</td>
+            <tr>
+                <th>Nota 01</td>
+                <th>Nota 02</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+                <td class="num">0,00</td>
+            </tr>
+                <tr class="total">
+                    <td colspan="4">Total em Exatas</td>
+                    <td class="num">0,00</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Humanas</td>
+                    <td>História</td>
+                    <td class="num">0,00</td>
+                    <td class="num">0,00</td>
+                    <td class="num">0,00</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td class="num">0,00</td>
+                    <td class="num">0,00</td>
+                    <td class="num">0,00</td>
+                </tr>
+                <tr class="total">
+                    <td colspan="4">Total em Humanas</td>
+                    <td class="num">0,00</td>
+                </tr>
+        </tbody>
+    </table>
+</body>
+</html>
