@@ -1,0 +1,56 @@
+/* Mobile First */
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: gray;
+}
+main {
+    background-color: white;
+    max-width: 80vw;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+main > h1 {
+    color: rgb(58, 102, 69);
+    text-align: center;
+}
+label {
+    color: gray;
+    font-size: 0.8em;
+}
+#iusu, #isen {
+    background-color: rgba(215, 250, 229, 0.712);
+    font-size: 1.3em;
+    width: 74vw;
+    padding: 10px;
+    border-radius: 20px;
+    border: transparent;
+    margin-bottom: 5px;
+}
+a {
+    color: rgb(110, 194, 110);
+    font-size: 0.8em;
+    text-decoration: none;
+}
+#isub {
+    width: 77vw;
+    margin-top: 5px;
+    padding: 16px;
+    border-radius: 20px;
+    border: transparent;
+    background-color: darkseagreen;
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+}
+#isub:hover {
+    background-color: rgb(63, 124, 63);
+    transition: 0.3s;
+    cursor: pointer;
+}
