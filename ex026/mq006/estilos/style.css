@@ -10,11 +10,13 @@ body {
 }
 main {
     background-color: white;
-    max-width: 80vw;
+    max-width: 455px;
     display: block;
     margin: auto;
     padding: 20px;
     border-radius: 20px;
+    position: relative;
+    transform: translate(-5%, 50%);
 }
 main > h1 {
     color: rgb(58, 102, 69);
@@ -27,7 +29,7 @@ label {
 #iusu, #isen {
     background-color: rgba(215, 250, 229, 0.712);
     font-size: 1.3em;
-    width: 74vw;
+    width: 72vw;
     padding: 10px;
     border-radius: 20px;
     border: transparent;
@@ -39,7 +41,7 @@ a {
     text-decoration: none;
 }
 #isub {
-    width: 77vw;
+    width: 76vw;
     margin-top: 5px;
     padding: 16px;
     border-radius: 20px;

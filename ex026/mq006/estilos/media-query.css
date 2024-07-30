@@ -1,79 +1,49 @@
 /* Demais dispositivos */
 
-@media screen and (min-width: 728px) and (max-width: 992px){
+@media screen and (min-width: 600px) and (max-width: 728px){
     main {
-        width: 600px;
+        width: 400px;
     }
     #isub {
-        width: 573px;
-        margin-top: 5px;
-        padding: 16px;
-        border-radius: 20px;
-        border: transparent;
-        background-color: darkseagreen;
-        color: white;
-        font-size: 1em;
-        font-weight: bold;
+        width: 400px;
     }
     #iusu, #isen {
-        background-color: rgba(215, 250, 229, 0.712);
-        font-size: 1.3em;
-        width: 580px;
-        padding: 10px;
-        border-radius: 20px;
-        border: transparent;
-        margin-bottom: 5px;
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 728px) and (max-width: 992px){
+    main {
+        width: 400px;
+    }
+    #isub {
+        width: 400px;
+    }
+    #iusu, #isen {
+        width: 380px;
     }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px){
     main {
-        width: 600px;
+        width: 400px;
     }
     #isub {
-        width: 573px;
-        margin-top: 5px;
-        padding: 16px;
-        border-radius: 20px;
-        border: transparent;
-        background-color: darkseagreen;
-        color: white;
-        font-size: 1em;
-        font-weight: bold;
+        width: 400px;
     }
     #iusu, #isen {
-        background-color: rgba(215, 250, 229, 0.712);
-        font-size: 1.3em;
-        width: 555px;
-        padding: 10px;
-        border-radius: 20px;
-        border: transparent;
-        margin-bottom: 5px;
+        width: 380px;
     }
 }
 
 @media screen and (min-width: 1200px){
     main {
-        width: 600px;
+        width: 400px;
     }
     #isub {
-        width: 573px;
-        margin-top: 5px;
-        padding: 16px;
-        border-radius: 20px;
-        border: transparent;
-        background-color: darkseagreen;
-        color: white;
-        font-size: 1em;
-        font-weight: bold;
+        width: 400px;
     }
     #iusu, #isen {
-        background-color: rgba(215, 250, 229, 0.712);
-        font-size: 1.3em;
-        width: 555px;
-        padding: 10px;
-        border-radius: 20px;
-        border: transparent;
-        margin-bottom: 5px;
+        width: 380px;
     }
 }
