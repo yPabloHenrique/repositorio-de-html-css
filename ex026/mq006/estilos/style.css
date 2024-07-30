@@ -16,7 +16,7 @@ main {
     padding: 20px;
     border-radius: 20px;
     position: relative;
-    transform: translate(-5%, 50%);
+    transform: translate(0%, 50%);
 }
 main > h1 {
     color: rgb(58, 102, 69);
