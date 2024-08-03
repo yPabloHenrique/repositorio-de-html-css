@@ -2,13 +2,13 @@
 
 @media screen and  (max-width: 599px){
     main {
-        width: 400px;
+        width: 300px;
     }
     .csub {
-        width: 400px;
+        width: 300px;
     }
     .cusu, .csen {
-        width: 380px;
+        width: 280px;
     }
 }
 @media screen and (min-width: 600px) and (max-width: 728px){
