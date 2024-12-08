@@ -1,3 +1,4 @@
 {
-    "discord.suppressNotifications": true
+    "discord.suppressNotifications": true,
+    "liveServer.settings.port": 5501
 }

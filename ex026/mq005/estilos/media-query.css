@@ -17,7 +17,9 @@ Grandes telas: acima de 1200px
         display: block;
     }
     menu > ul > li {
-        display: inline-block;
+        display: block;
+        float: right;
+        margin-top: -50px;
     }
 }
 
