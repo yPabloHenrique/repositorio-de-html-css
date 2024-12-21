@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            background-color: red;
+            display: flex;
+            flex-flow: row wrap;
+            text-align: center;
+            height: 400px;
+        }
+        .item {
+            background-color: blue;
+            border: 2px solid green;
+            padding: 40px;
+
+        }
+        #i1 {
+            order: 0;
+        }
+        #i2 {
+            order: -2;
+        }
+        #i3 {
+            order: 4;
+        }
+        #i4 {
+            order: 8;
+        }
+        #i5 {
+            order: 2;
+        }
+        #i6 {
+            order: 0;
+        }
+        #i7 {
+            order: -4;
+        }
+    </style>
+    <title>Aprendendo Flexble Box</title>
+</head>
+<body>
+    <div class="container">
+        <div class="item"  id="i1">Exemplo de caixa A</div>
+        <div class="item" id="i2">Exemplo de caixa B</div>
+        <div class="item" id="i3">Exemplo de caixa C</div>
+        <div class="item" id="i4">Exemplo de caixa D</div>
+        <div class="item" id="i5">Exemplo de caixa E</div>
+        <div class="item" id="i6">Exemplo de caixa F</div>
+        <div class="item"  id="i7">Exemplo de caixa G</div>
+    </div>
+</body>
+</html>
